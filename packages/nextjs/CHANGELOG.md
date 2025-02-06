@@ -1,5 +1,16 @@
 # Change Log
 
+## 6.11.2
+
+### Patch Changes
+
+- Fixes the "Unable to verify request ..." error occured when switching keys from an application running on keyless and a regular claimed application and there is a user signed-in. ([#5085](https://github.com/clerk/javascript/pull/5085)) by [@panteliselef](https://github.com/panteliselef)
+
+- Updated dependencies [[`f41081c563ddd2afc05b837358e0de087ae0c895`](https://github.com/clerk/javascript/commit/f41081c563ddd2afc05b837358e0de087ae0c895)]:
+  - @clerk/shared@2.21.0
+  - @clerk/backend@1.23.12
+  - @clerk/clerk-react@5.22.12
+
 ## 6.11.1
 
 ### Patch Changes

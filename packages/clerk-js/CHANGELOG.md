@@ -1,5 +1,16 @@
 # Change Log
 
+## 5.52.2
+
+### Patch Changes
+
+- Fix issue accessing routing option when componentProps is undefined. ([#5088](https://github.com/clerk/javascript/pull/5088)) by [@alexcarpenter](https://github.com/alexcarpenter)
+
+- `createAllowedRedirectOrigins` now takes the instance type into account to include Frontend API URL for development instances. This is necessary to properly support Clerk as an IdP with OAuth for development instances. ([#4767](https://github.com/clerk/javascript/pull/4767)) by [@kostaspt](https://github.com/kostaspt)
+
+- Updated dependencies [[`f41081c563ddd2afc05b837358e0de087ae0c895`](https://github.com/clerk/javascript/commit/f41081c563ddd2afc05b837358e0de087ae0c895)]:
+  - @clerk/shared@2.21.0
+
 ## 5.52.1
 
 ### Patch Changes

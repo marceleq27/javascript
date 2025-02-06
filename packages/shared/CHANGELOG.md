@@ -1,5 +1,19 @@
 # Change Log
 
+## 2.21.0
+
+### Minor Changes
+
+- Introduce unified environment variable handling across all supported platforms ([#4985](https://github.com/clerk/javascript/pull/4985)) by [@wobsoriano](https://github.com/wobsoriano)
+
+  Usage:
+
+  ```ts
+  import { getEnvVariable } from '@clerk/shared/getEnvVariable';
+
+  const publishableKey = getEnvVariable('CLERK_PUBLISHABLE_KEY');
+  ```
+
 ## 2.20.18
 
 ### Patch Changes

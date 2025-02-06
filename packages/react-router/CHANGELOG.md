@@ -1,5 +1,16 @@
 # Change Log
 
+## 1.0.7
+
+### Patch Changes
+
+- Internal changes to use new `getEnvVariable` utility from `@clerk/shared` ([#4985](https://github.com/clerk/javascript/pull/4985)) by [@wobsoriano](https://github.com/wobsoriano)
+
+- Updated dependencies [[`f41081c563ddd2afc05b837358e0de087ae0c895`](https://github.com/clerk/javascript/commit/f41081c563ddd2afc05b837358e0de087ae0c895)]:
+  - @clerk/shared@2.21.0
+  - @clerk/backend@1.23.12
+  - @clerk/clerk-react@5.22.12
+
 ## 1.0.6
 
 ### Patch Changes
